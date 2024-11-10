@@ -120,7 +120,7 @@ export default function HomeScreen() {
 
   return (
     <main>
-      <section className="relative h-[70vh] mb-12">
+      <section className="relative h-[70vh]">
         <Image
           src={featuredContent.image}
           alt={featuredContent.title}
@@ -145,8 +145,8 @@ export default function HomeScreen() {
       </section>
 
       {contentRows.map((row, rowIndex) => (
-        <section key={row.title} className="mb-12">
-          <div className=" mx-4 px-4 mt-8">
+        <section key={row.title} className="pb-12 bg-black px-8">
+          <div className="">
             <h3 className="text-2xl font-semibold mb-4 text-white">
               {row.title}
             </h3>
