@@ -17,7 +17,7 @@ const scrollbarHideClass = `
 
 const navItems = [
   { href: "/", label: "Inicio" },
-  { href: "/project", label: "Proyectos" },
+  { href: "/projects", label: "Proyectos" },
   { href: "/contact", label: "Contacto" },
 ]
 
