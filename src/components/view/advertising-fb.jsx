@@ -1,5 +1,5 @@
-import { Button } from "./button";
-import { Iframe } from "./iframe";
+import { Button } from "../ui/button";
+import { Iframe } from "../view/iframe";
 
 export default function AdvertisingFacebook({
   title,
